@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Your custom CSS can go here if needed -->
+    <link rel="stylesheet" href="/stylesheets/log.css">
+    <style>
+        /* Your custom styles can go here */
+    </style>
+</head>
+<body>
+
+<!-- Your existing HTML code here -->
+<div id="bodymain">
+    <section class="vh-100" id="bgg">
+        <div class="container py-5 h-100">
+          
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+              <div class="card shadow-2-strong" style="border-radius: 1rem;">
+              
+                <div class="card-body p-5 text-center">
+      <form action="/login" name="form1log" method="post" >
+                  <h3 class="mb-5">Log in</h3>
+                  <% if(errorMessage){ %> 
+                    <p class="text-danger"> <%= errorMessage %> </p>
+                    <% } %>
+      
+                  <div class="form-outline mb-4">
+                    <input type="email" id="contact-email" class="form-control form-control-lg" onkeyup="validatEmail()" name="email" />
+                    <label class="form-label" for="typeEmailX-2" >Email</label>
+                    <span id="email-error"></span>
+                  </div>
+      
+                  <div class="form-outline mb-4">
+                    <input type="password" id="password" class="form-control form-control-lg" onkeyup="validatpass()" name="password"  />
+                    <label class="form-label" for="typePasswordX-2" >Password</label>
+                    <span id="password-error"></span>
+                  </div>
+      
+                  <!-- Checkbox -->
+                  <!-- <div class="form-check d-flex justify-content-start mb-4">
+                    <input class="form-check-input" type="checkbox" value="" id="form1Example3"  />
+                    <label class="form-check-label" for="form1Example3"> Remember password </label>
+                  </div> -->
+      
+                  <button class="btn btn-primary btn-lg btn-block" type="submit" id="submit" onclick="return validForm()"  >Login</button></a>
+                  <span id="submit-error"></span>
+                 
+                  <hr class="my-4">
+                </form>
+                <p><a href="/signup">create account?</a></p>
+                  
+                 
+      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</div>
+
+<!-- Add Bootstrap JS and jQuery (optional) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="/javascripts/log.js"></script>
+</body>
+</html>

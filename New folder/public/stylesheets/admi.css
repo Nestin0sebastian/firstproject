@@ -1,0 +1,23 @@
+body {
+    background-image: url(https://img.freepik.com/premium-vector/abstract-technology-with-global-world-network-telecommunication-earth-digital-data_258787-666.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .container {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    box-shadow: 2PX 2PX 50PX rgba(0, 0, 0, 0.397);
+  }
+  .btn-add {
+    background-color: #28a745;
+    color: #fff;
+  }
+  .btn-delete {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  .table th, .table td {
+    vertical-align: middle;
+  }

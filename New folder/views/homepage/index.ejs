@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Your custom CSS can go here if needed -->
+  <link rel="stylesheet" href="/stylesheets/index.css">
+</head>
+<body>
+
+<!-- Your existing HTML code here -->
+<header>
+    
+    <nav class="header__navegation">
+       
+        <ul>
+            <!-- <li><a href="#">products</a></li> -->
+            <!-- <li><a href="#">Contact</a></li> -->
+            <% if(admin){ %>
+            <li><a href="/admin">Go To admin Page</a></li>
+            <% } %>
+            <li><a href="/logout">logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="header__content">
+        <h1>
+            "Welcome to our digital sanctuary "</h1>
+        <h2>where every click leads to endless possibilities.</h2>
+        <button class="btn">Shop now</button>
+    </div>
+</header>
+
+
+
+<!-- Add Bootstrap JS and jQuery (optional) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

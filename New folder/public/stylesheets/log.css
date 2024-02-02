@@ -1,0 +1,11 @@
+#bodymain{
+    width: 100vw;
+    height: 100vh;
+    background-image: url();
+}
+#bgg{
+    background-image: url(https://img.freepik.com/premium-photo/abstract-digital-communication_34629-318.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696896000&semt=ais);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}

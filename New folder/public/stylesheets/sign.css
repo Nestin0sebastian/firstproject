@@ -1,0 +1,24 @@
+#bodymain{
+    height: 100vh;
+    background-image: url();    background-image: url(https://img.lovepik.com/background/20211022/large/lovepik-blue-tech-background-image_401948404.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+}
+#bgg{
+
+    background-color: transparent;
+}
+#formm{
+    border-radius: 25%;
+}
+/* styles.css */
+/* Other CSS rules */
+
+@media (max-width: 768px) {
+    #hidex{
+      display: none;
+    }
+  }
+  
